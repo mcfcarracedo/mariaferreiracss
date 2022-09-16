@@ -116,7 +116,7 @@ body {
     padding-right: 5px;
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 768px) {
     .card_container {
         flex-direction: row;
         width: 550px;
