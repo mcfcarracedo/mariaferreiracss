@@ -20,6 +20,7 @@ body {
     font-size: 14px;
     font-family: 'Fraunces', serif;
     height: 100vh;
+    
 }
 
 .card {
@@ -115,7 +116,7 @@ body {
     padding-right: 5px;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 1440px) {
     .card_container {
         flex-direction: row;
         width: 550px;
